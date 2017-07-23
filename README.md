@@ -4,13 +4,14 @@ Candy
 Candy : A New Tool for quick open files and fast search text.
 
 2.0.0.7:
-	基于2.0.0.6 增加批量执行功能，例如选中短文本，利用多个web搜索引擎进行搜索
-	配置方法：
-	在ini文件中添加两个value
-	all_in_group					=all|group
-	all_in_section					=all|section
-	all|group  代表批量执行ini文件中在两个分隔线之间的命令
-	all|section 代表执行整个ini文件中的命令
+	新增：没有选中任何内容时，弹出输入对话框，便于输入后执行对应动作  
+	新增：基于2.0.0.6 增加批量执行功能，例如选中短文本，利用多个web搜索引擎进行搜索  
+	配置方法：  
+	在ini文件中添加两个value  
+	all_in_group					=all|group  
+	all_in_section					=all|section  
+	all|group  代表批量执行ini文件中在两个分隔线之间的命令  
+	all|section 代表执行整个ini文件中的命令  
 
 
 2.0.0.6:
